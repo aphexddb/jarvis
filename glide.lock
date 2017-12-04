@@ -1,0 +1,65 @@
+hash: 4ca3dbf505c830e24af9721e1d835147210db6b75d92e5351dacf75a48e85338
+updated: 2017-11-29T09:19:14.750864797-06:00
+imports:
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 7f08801859139f86dfafd1c296e2cba9a80d292e
+- name: github.com/gorilla/websocket
+  version: ea4d1f681babbce9545c9c5f3d5194a789c89f5b
+- name: github.com/miekg/dns
+  version: 5ec0c6d20f3f8097491941eccff7d1ea28d5eba9
+  subpackages:
+  - internal/socket
+- name: github.com/xenolf/lego
+  version: b929aa5aab5ad2e197bb3d74ef99fac61bfa47bc
+  subpackages:
+  - acme
+- name: golang.org/x/crypto
+  version: 76eec36fa14229c4b25bb894c2d0e591527af429
+  subpackages:
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ocsp
+- name: golang.org/x/net
+  version: 0a9397675ba34b2845f758fe3cd68828369c6517
+  subpackages:
+  - context
+- name: golang.org/x/time
+  version: 6dc17368e09b0e8634d71cac8168d853e869a0c7
+  subpackages:
+  - rate
+- name: gopkg.in/square/go-jose.v1
+  version: aa2e30fdd1fe9dd3394119af66451ae790d50e0d
+  subpackages:
+  - cipher
+  - json
+- name: periph.io/x/periph
+  version: 687bb43ba5ad417371dc0d1a1f7189119aafcede
+  subpackages:
+  - conn
+  - conn/gpio
+  - conn/gpio/gpioreg
+  - conn/i2c
+  - conn/i2c/i2creg
+  - conn/pin
+  - conn/pin/pinreg
+  - conn/spi
+  - conn/spi/spireg
+  - devices
+  - host
+  - host/allwinner
+  - host/bcm283x
+  - host/chip
+  - host/cpu
+  - host/distro
+  - host/fs
+  - host/odroidc1
+  - host/pine64
+  - host/pmem
+  - host/rpi
+  - host/sysfs
+  - host/videocore
+- name: rsc.io/letsencrypt
+  version: 33926faef6d434b854ea994228f11d0185faa0c1
+testImports: []

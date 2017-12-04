@@ -1,0 +1,8 @@
+package: github.com/aphexddb/jarvis
+import:
+- package: github.com/gorilla/mux
+  version: v1.6.0
+- package: periph.io/x/periph
+  version: v2.0.0
+- package: github.com/gorilla/websocket
+  version: v1.2.0
