@@ -10,9 +10,6 @@ ADD ./dist/client /dist/client-latest
 RUN adduser -D myuser
 USER myuser
 
-ENV USER user
-ENV PASSWORD password
-
 # Run the app.  CMD is required to run on Heroku
 # $PORT is set by Heroku			
-CMD /server -user $USER -password $PASSWORD
+CMD /server
